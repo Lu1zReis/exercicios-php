@@ -1,0 +1,27 @@
+#menu {
+    margin-top: 2.5%;
+    border-bottom: 3px solid orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Geral {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#Temas {
+    background-color: rgb(209, 209, 252);
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 1px 5px 4px 4px;
+
+    border-top: 5px solid black;
+    
+    text-align: left;
+    color: solid black;
+}

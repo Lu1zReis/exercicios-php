@@ -1,0 +1,28 @@
+
+
+#inicio {
+	padding: 30px 20px 20px 30px;
+	border: 5px solid grey;
+	background-color: #1C1C1C;
+
+}
+
+#central {
+	margin-right: 70px;
+	margin-bottom: 25px;
+	margin-left: 70%;
+	margin-right: 70%;
+	background-color: Lavender;
+    border: 7px solid black;
+    line-height: 1.5px;
+}
+
+#tabela {
+
+	margin-right: 0px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+	background: white;
+	border-color: black;
+
+}
