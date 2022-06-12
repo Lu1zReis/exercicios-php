@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 0.2pt solid;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-style: italic;
+    margin-top: 80px;
+}
+.form-linkVideo {
+    display: flex;
+    flex-direction: column;
+    size: 50px;
+
+}
+.form-geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6px;
+}
+.geral-item {
+    height: 40px;
+    width: 200px;
+}
+.botaoEnviar {
+    padding-top: 30px;
+}

@@ -1,0 +1,63 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projeto 3</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        
+        <header class="cab">
+            <nav class="cab-stts-bar">
+                <a href="login.html" class="cab-stts-bar-lgn">
+                    Login
+                </a>
+                <a id="ult" class="cab-stts-bar-lstSong" onclick="ultMusica()">
+                    ultima música...
+                </a>
+            </nav>
+        </header>
+        
+        
+        <main class="prin">
+            <h1 class="prin-tit">Título...</h1>
+
+            <iframe class="prin-vid" src="https://www.youtube.com/embed/yUflv-7GlQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h2 id="descri" class="prin-des" onclick="verDesc()">
+                Descrição...
+            </h2>
+        </main>
+
+        <script>
+            var controle1 = 0;
+            var controle2 = 0;
+            var musi = document.getElementById('ult')
+            var desc = document.getElementById('descri')
+
+            function ultMusica() {
+                if(controle1 == 0){
+                    musi.innerHTML = 'oi'
+                    controle1 = 1
+                }
+                else {
+                    musi.innerHTML = 'ultima música...'
+                    controle1 = 0
+                }
+            }
+
+            function verDesc() {
+                if(controle2 == 0){
+                    desc.innerHTML = 'oi'
+                    controle2 = 1
+                }
+                else {
+                    desc.innerHTML = 'Descrição...'
+                    controle2 = 0
+                }                
+            }
+
+        </script>
+
+    </body>
+</html>
