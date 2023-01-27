@@ -39,4 +39,23 @@ class ProdutoDao {
         endif;
 
     }
+
+    public function Cores(Produto $p) {
+        $sql = 'UPDATE dados SET cor1 = ?, cor2 = ? WHERE id = ?';
+
+        $stmt = Conexão::getConn()->prepare($sql);
+
+        // aonde vai retornar os valores e atualizá-los
+
+        $stmt->bindValue(1, $p->getCor1());
+        $stmt->bindValue(2, $p->getCor2());
+        $stmt->bindValue(3, $p->getId());
+
+        if($stmt->execute()):
+            return true;
+        else:
+            return false;
+        endif;
+
+    }
 }
